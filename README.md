@@ -1,2 +1,2 @@
-# FLUME-Data-Streaming-
+# FLUME-Data-Streaming
 Realtime data streaming using flume
