@@ -2,7 +2,6 @@
   1. Create a Twitter developer account at https://developer.twitter.com/en/portal/dashboard
   2. Generate api tokens
 
-
 # Twitter Agent conf File
 
 ### Create a conf file
