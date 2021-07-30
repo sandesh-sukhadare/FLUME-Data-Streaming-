@@ -35,6 +35,6 @@
   ```
   
   ## Start the Agent
-    ```
-    flume-ng agent -n TwitterAgent -f /"filepath"/twitter.conf
-    ```
+  ```
+  flume-ng agent -n TwitterAgent -f /"filepath"/twitter.conf
+  ```
