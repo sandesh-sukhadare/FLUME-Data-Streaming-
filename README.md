@@ -13,8 +13,7 @@ Realtime data streaming using flume
    ```
 3. Set the FLUME_HOME path in the .bashrc file
    ```
-   #Make sure that you are in the home directory
-   nano .bashrc
+   nano ~/.bashrc
    ```
    ```
    #Flume
