@@ -14,8 +14,8 @@ Realtime data streaming using flume
 3. Set the FLUME_HOME path in the .bashrc file
 ```
 #Make sure that you are in the home directory
-nano .bashrc
-#Flume
+nano .bashrc```
+```#Flume
 export FLUME_HOME=/home/<"username">/apache-flume-1.9.0-bin
 export PATH=$PATH:/home/<"username">/apache-flume-1.9.0-bin/bin
 ```
