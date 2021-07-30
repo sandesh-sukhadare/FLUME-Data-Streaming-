@@ -2,9 +2,9 @@
 
 ### Create a conf file
   ```
-  touch twitter-conf
+  nano twitter-conf
   ```
- ### Paste the following code in the conf file
+### Paste the following code in the conf file
   ```
   TwitterAgent.sources = Twitter 
   TwitterAgent.channels = MemChannel 
@@ -23,7 +23,7 @@
   TwitterAgent.sinks.HDFS.channel=MemChannel
   TwitterAgent.sinks.HDFS.type=hdfs
   TwitterAgent.sinks.HDFS.fileType=DataStream
-  TwitterAgent.sinks.HDFS.hdfs.path= /user/sandesh/Tokyo2020
+  TwitterAgent.sinks.HDFS.hdfs.path= /user/FlumeTweets/Tokyo2020
 
   TwitterAgent.sinks.HDFS.writeFormat=Text
   TwitterAgent.sinks.HDFS.batchSize=100
@@ -34,7 +34,12 @@
   TwitterAgent.channels.MemChannel.transactionCapacity = 1000
   ```
   
-  ### Start the Agent
+### Start the Agent
   ```
   flume-ng agent -n TwitterAgent -f /"filepath"/twitter.conf
   ```
+### Stopping the Agent
+  ```
+  {ctrl + c}
+  ```
+  
