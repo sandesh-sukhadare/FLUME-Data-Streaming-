@@ -1,10 +1,10 @@
 # Twitter Agent conf File
 
-## Create a conf file
+### Create a conf file
   ```
   touch twitter-conf
   ```
- ## Paste the following code in the conf file
+ ### Paste the following code in the conf file
   ```
   TwitterAgent.sources = Twitter 
   TwitterAgent.channels = MemChannel 
@@ -34,7 +34,7 @@
   TwitterAgent.channels.MemChannel.transactionCapacity = 1000
   ```
   
-  ## Start the Agent
+  ### Start the Agent
   ```
   flume-ng agent -n TwitterAgent -f /"filepath"/twitter.conf
   ```
