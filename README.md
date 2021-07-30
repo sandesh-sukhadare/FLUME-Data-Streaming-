@@ -8,6 +8,6 @@ Realtime data streaming using flume
    wget https://mirrors.ocf.berkeley.edu/apache/flume/1.9.0/apache-flume-1.9.0-bin.tar.gz
    ```
 2. Extract the tar file
-   '''sh
+   ```sh
    tar xzf apache-flume-1.9.0-bin.tar.gz
-   '''
+   ```
