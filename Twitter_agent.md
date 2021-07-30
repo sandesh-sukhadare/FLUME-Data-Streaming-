@@ -1,5 +1,5 @@
 # Get Twitter API
-  1. Create a Twitter developer account at https://developer.twitter.com/en/portal/dashboard
+  1. Create a Twitter developer account at https://developer.twitter.com/en/apply-for-access
   2. Generate api tokens
 
 # Twitter Agent conf File
