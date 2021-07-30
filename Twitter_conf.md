@@ -2,7 +2,7 @@
 
 ## Create a conf file
   ```
-  touch flume-conf
+  touch twitter-conf
   ```
  ## Paste the following code in the conf file
   ```
@@ -13,10 +13,10 @@
   TwitterAgent.sources.Twitter.type = org.apache.flume.source.twitter.TwitterSource
   TwitterAgent.sources.Twitter.channels=MemChannel
 
-  TwitterAgent.sources.Twitter.consumerKey =  Enter your consumerKey here
-  TwitterAgent.sources.Twitter.consumerSecret = Enter your consumerSecret here
-  TwitterAgent.sources.Twitter.accessToken =   Enter your accessToken here
-  TwitterAgent.sources.Twitter.accessTokenSecret = Enter your accessTokenSecret here
+  TwitterAgent.sources.Twitter.consumerKey =  Enter_your_consumerKey_here
+  TwitterAgent.sources.Twitter.consumerSecret = Enter_your_consumerSecret_here
+  TwitterAgent.sources.Twitter.accessToken =   Enter_your_accessToken_here
+  TwitterAgent.sources.Twitter.accessTokenSecret = Enter_your_accessTokenSecret_here
   
   TwitterAgent.sources.Twitter.keywords=Tokyo2020
 
@@ -33,3 +33,8 @@
   TwitterAgent.channels.MemChannel.capacity=10000
   TwitterAgent.channels.MemChannel.transactionCapacity = 1000
   ```
+  
+  ## Start the Agent
+    ```
+    flume-ng agent -n TwitterAgent -f /"filepath"/twitter.conf
+    ```
