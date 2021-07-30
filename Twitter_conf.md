@@ -1,10 +1,10 @@
 # Twitter Agent conf File
 
-## create a conf file
+## Create a conf file
   ```
   touch flume-conf
   ```
- ## paste the following code in the conf file
+ ## Paste the following code in the conf file
   ```
   TwitterAgent.sources = Twitter 
   TwitterAgent.channels = MemChannel 
@@ -13,10 +13,11 @@
   TwitterAgent.sources.Twitter.type = org.apache.flume.source.twitter.TwitterSource
   TwitterAgent.sources.Twitter.channels=MemChannel
 
-  TwitterAgent.sources.Twitter.consumerKey =  1K7mz1LdWUsASdZPS7E4NbZx9
-  TwitterAgent.sources.Twitter.consumerSecret = VH60cHfooph4yPec5h7Wwx51vMbKo65I4BDIgNye5ofT0W2tj4
-  TwitterAgent.sources.Twitter.accessToken =   837610788747624448-2ByD43M4D8C6XVsfGeBfM083bGrbBql
-  TwitterAgent.sources.Twitter.accessTokenSecret = 2wL2LcMWeEnGR0JQ12OKbxvInNDeMWI9vQVua26qtSP48
+  TwitterAgent.sources.Twitter.consumerKey =  Enter your consumerKey here
+  TwitterAgent.sources.Twitter.consumerSecret = Enter your consumerSecret here
+  TwitterAgent.sources.Twitter.accessToken =   Enter your accessToken here
+  TwitterAgent.sources.Twitter.accessTokenSecret = Enter your accessTokenSecret here
+  
   TwitterAgent.sources.Twitter.keywords=Tokyo2020
 
   TwitterAgent.sinks.HDFS.channel=MemChannel
