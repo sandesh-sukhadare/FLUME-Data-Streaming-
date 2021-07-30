@@ -25,5 +25,6 @@ Realtime data streaming using flume
 4. Save the .bashrc file and exit {press ctrl+s then ctrl+ x}
 
 5. Source .bashrc file
-```source .bashrc
+```
+   source .bashrc
 ```
